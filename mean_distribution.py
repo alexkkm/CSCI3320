@@ -14,6 +14,7 @@ def estimate_mean(n, delta):
         array.insert(i,number)
     fd.close()
 
+
     sampledict={}
     for k in range(amount):
         sampledict[k]=array[(3*k):(3*k+3)]
